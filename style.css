@@ -65,11 +65,31 @@ h1 {
 #button-clicker:hover {
     scale: 1.1;
 }
+
 #button:hover {
     scale: 1.1;
 }
 
-img {
-    padding-top: 200px;
+#reinitialiser:hover {
+    scale: 1.1;
 }
 
+img {
+    padding-top: 150px;
+}
+
+#reinitialiser {
+    margin-top: 20px;
+    background-color: rgba(211, 84, 45, 0.406);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#counter {
+    color: white;
+}

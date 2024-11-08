@@ -25,3 +25,9 @@ if(count < 0) {
     document.getElementById('counter').style.color = 'white';
 }
 })
+
+document.getElementById('reinitialiser').addEventListener('click', () => {
+    count = 0;
+    document.getElementById('counter').innerHTML = count;
+    document.getElementById('counter').style.backgroundColor = 'olivedrab';
+})
